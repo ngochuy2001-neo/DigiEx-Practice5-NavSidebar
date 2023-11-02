@@ -1,27 +1,29 @@
+
 const sidebarData = [
   {
     text: "Dashboard",
-    link: "/dashboard",
-    icon: "dashboard",
+    link: "/",
+    icon: "AiFillHome",
   },
   {
     text: "Cards",
     link: "/cards",
-    icon: "card",
+    icon: "BsFillCreditCard2FrontFill",
     submenu: [
-      { text: "Global account", link: "/globalaccount" },
-      { text: "Conversions", link: "/Conversions" },
+      { text: "Global account", link: "/globalaccount", icon: "CiCoinInsert"},
+      { text: "Conversions", link: "/conversions", icon: "MdOutlineCurrencyExchange" },
     ],
   },
   {
-    text: "Settings",
-    link: "/settings",
-    icon: "cog",
-    submenu: [
-      { text: "General", link: "/settings/general" },
-      { text: "Security", link: "/settings/security" },
-    ],
+    text: "Transfers",
+    link: "/transfers",
+    icon: "TbTransfer",
   },
+  {
+    text: "test",
+    link: "",
+    icon: "test"
+  }
 ];
 
 export default sidebarData;
