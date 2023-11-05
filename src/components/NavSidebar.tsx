@@ -95,7 +95,8 @@ const NavSideBar = () => {
                         className="h-[50px] hover:bg-blue-300 flex items-center px-3 transition-width duration-200 bg-blue-950"
                         href={value.link + subValue.link}
                       >
-                        <div className="flex items-center">
+                        <div className="flex items-center"
+                        style={isExpanded? {marginRight: "5px"}:{}}>
                           {checkIcon(subValue.icon)}
                         </div>
                         {isExpanded? subValue.text: ""}
