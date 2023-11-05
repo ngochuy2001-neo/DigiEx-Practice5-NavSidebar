@@ -1,4 +1,3 @@
-
 const sidebarData = [
   {
     text: "Dashboard",
